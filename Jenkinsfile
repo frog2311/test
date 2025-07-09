@@ -10,7 +10,7 @@ pipeline {
             steps
             {
                 echo 'First Stage'
-                git url: 'https://github.com/frog2311/test.git', branch: 'main', credentialsId: 'github-private-token'
+                git url: 'https://github.com/frog2311/test.git', branch: 'master', credentialsId: 'github-private-token'
             }
         }
 
